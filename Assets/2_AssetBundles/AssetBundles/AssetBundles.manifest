@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2788039018
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scene-1
+      Dependencies:
+        Dependency_0: global
+    Info_1:
+      Name: scene-2
+      Dependencies:
+        Dependency_0: global
+    Info_2:
+      Name: global
+      Dependencies:
+        Dependency_0: global-materials
+    Info_3:
+      Name: global-materials
+      Dependencies: {}

@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 4213710606
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6aff2c782407f2840cbb3919a2b6efde
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b9198ecb8d2610e34d05fb6aff957173
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 205a0149ac9d456385fada7b3c0b1855, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f04cf3ef441443e7b68a9636090a2eb5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/3_Addressable/Scenes/Level2.unity
+- Assets/2_AssetBundles/Scenes/Scene2.unity
+Dependencies:
+- C:/Programming/UnityProjects/Chapter_3/Assets/2_AssetBundles/AssetBundles/global

@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 1902290221
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 123e9e9909fefd1b534660d9111d7404
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 41b8aefd99c817684266ffd554fe0e90
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4dc3971a18584ce8940d3c56097bfc6e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe7416876bac42fa8a0eb2721f7698ec, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Common/Prefabs/Ground.prefab
+- Assets/Common/Prefabs/Player.prefab
+Dependencies:
+- C:/Programming/UnityProjects/Chapter_3/Assets/2_AssetBundles/AssetBundles/global-materials
