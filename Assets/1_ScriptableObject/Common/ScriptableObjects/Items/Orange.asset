@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d61cb15f6a7b4f0b9131ce54bfa60611, type: 3}
   m_Name: Orange
   m_EditorClassIdentifier: 
-  ItemName: Orange
-  ItemDescription: Orange orange
+  ItemInfo:
+    Name: Orange
+    Description: Orange orange
   ItemIcon: {fileID: 21300000, guid: fed50d8b8f331194d8c49fae30740ba6, type: 3}
   ItemPrefab: {fileID: 4074530034630664563, guid: 0b93790b3fa236f438da5f8196fbb6e3, type: 3}

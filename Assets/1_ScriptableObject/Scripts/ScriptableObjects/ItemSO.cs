@@ -6,8 +6,7 @@ namespace _1_ScriptableObject.Scripts.ScriptableObjects
     [CreateAssetMenu(fileName = "Item", menuName = "Inventory/Item", order = 1)]
     public class ItemSO : ScriptableObject
     {
-        public string ItemName;
-        public string ItemDescription;
+        public ItemInfo ItemInfo;
         public Sprite ItemIcon;
         public Item ItemPrefab;
     }

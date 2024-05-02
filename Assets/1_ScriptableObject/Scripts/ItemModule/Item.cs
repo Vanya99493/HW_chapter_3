@@ -4,22 +4,31 @@ namespace _1_ScriptableObject.Scripts.ItemModule
 {
     public class Item : MonoBehaviour
     {
-        private string _name;
-        private string _description;
+        [SerializeField] private ItemType _itemType;
         
+        private ItemInfo _itemInfo;
+
+        public string Name => _itemInfo.Name;
+        public string Description => _itemInfo.Description;
+        public ItemType ItemType => _itemType;
         public Sprite Icon { get; private set; }
 
-        public void Initialize(string name, string description, Sprite icon)
+        private void Start()
         {
-            _name = name;
-            _description = description;
-            Icon = icon;
+            Initialize();
         }
 
         public string GetFullDescription()
         {
-            return $"Name: {_name}\n" +
-                   $"Description: {_description}";
+            return $"Name: {Name}\n" +
+                   $"Description: {Description}";
+        }
+
+        private void Initialize()
+        {
+            var itemSO = Game.ItemsContainerSO[_itemType];
+            _itemInfo = itemSO.ItemInfo;
+            Icon = itemSO.ItemIcon;
         }
     }
 }

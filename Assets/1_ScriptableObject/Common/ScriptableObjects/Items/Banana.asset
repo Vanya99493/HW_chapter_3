@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d61cb15f6a7b4f0b9131ce54bfa60611, type: 3}
   m_Name: Banana
   m_EditorClassIdentifier: 
-  ItemName: Banana
-  ItemDescription: Long banana
+  ItemInfo:
+    Name: Banana
+    Description: Long yellow banana
   ItemIcon: {fileID: 21300000, guid: fc3233bf94434384a8cb7b5f0eccf9d8, type: 3}
   ItemPrefab: {fileID: 7759083069029708027, guid: 6574fba4945e0344aa348b7df490c9f1, type: 3}

@@ -14,6 +14,7 @@ namespace _3_Addressable.Scripts.FactoryModule
             var handle = Addressables.LoadAssetAsync<GameObject>(_name);
             await handle.Task;
             Instantiate(handle.Result, _spawnTransform.position, _spawnTransform.rotation);
+            Addressables.Release(handle);
         }
     }
 }

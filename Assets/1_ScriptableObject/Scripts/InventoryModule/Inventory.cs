@@ -1,6 +1,5 @@
 ﻿using System;
 using _1_ScriptableObject.Scripts.ItemModule;
-using _1_ScriptableObject.Scripts.ScriptableObjects;
 using UnityEngine;
 
 namespace _1_ScriptableObject.Scripts.InventoryModule
@@ -18,23 +17,6 @@ namespace _1_ScriptableObject.Scripts.InventoryModule
             {
                 _inventorySlots[i].ClickEvent += OnInventorySlotClick;
                 _inventorySlots[i].RemoveEvent += OnRemoveItem;
-            }
-        }
-
-        public void Initialize(InventorySO inventorySO)
-        {
-            int slotIndex = 0;
-            foreach (var itemSO in inventorySO.Items)
-            {
-                if (itemSO != null)
-                {
-                    Item item = Instantiate(itemSO.ItemPrefab, gameObject.transform);
-                    item.gameObject.SetActive(false);
-                    item.Initialize(itemSO.ItemName, itemSO.ItemDescription, itemSO.ItemIcon);
-                    _inventorySlots[slotIndex].AddItem(item);
-                }
-
-                slotIndex++;
             }
         }
 
